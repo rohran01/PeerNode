@@ -1,0 +1,315 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'socket' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose install initial load of /Users/rohran01/Desktop/PrimeProjects/PeerNode/package.json
+5 warn package.json peernode@1.0.0 No repository field.
+6 warn package.json peernode@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/jquery/package.json
+8 info package.json jquery@2.1.4 No license field.
+9 verbose readDependencies loading dependencies from /Users/rohran01/Desktop/PrimeProjects/PeerNode/package.json
+10 silly cache add args [ 'socket', null ]
+11 verbose cache add spec socket
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'socket',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'socket',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed socket@*
+14 verbose addNamed "*" is a valid semver range for socket
+15 silly addNameRange { name: 'socket', range: '*', hasData: false }
+16 silly mapToRegistry name socket
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/socket
+20 verbose addNameRange registry:https://registry.npmjs.org/socket not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/socket
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 1:26:49 PM
+24 verbose request id 7d84f82539512c88
+25 http request GET https://registry.npmjs.org/socket
+26 http 200 https://registry.npmjs.org/socket
+27 silly get cb [ 200,
+27 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly get     etag: '"368QAD6FWDSRRSF0K2VF00IA6"',
+27 silly get     'content-type': 'application/json',
+27 silly get     'cache-control': 'max-age=300',
+27 silly get     'content-length': '1522',
+27 silly get     'accept-ranges': 'bytes',
+27 silly get     date: 'Tue, 05 Jan 2016 19:26:50 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     age: '0',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-dfw1833-DFW',
+27 silly get     'x-cache': 'MISS',
+27 silly get     'x-cache-hits': '0',
+27 silly get     'x-timer': 'S1452022010.829984,VS0,VE50',
+27 silly get     vary: 'Accept' } ]
+28 verbose get saving socket to /Users/rohran01/.npm/registry.npmjs.org/socket/.cache.json
+29 silly addNameRange number 2 { name: 'socket', range: '*', hasData: true }
+30 silly addNameRange versions [ 'socket', [ '0.0.1' ] ]
+31 silly addNamed socket@0.0.1
+32 verbose addNamed "0.0.1" is a plain semver version for socket
+33 silly mapToRegistry name socket
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/socket
+37 verbose addRemoteTarball https://registry.npmjs.org/socket/-/socket-0.0.1.tgz not in flight; adding
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz',
+38 verbose addRemoteTarball   '29ac6549f15a65b19f3444a4178d537a8c161a8b' ]
+39 info retry fetch attempt 1 at 1:26:50 PM
+40 info attempt registry request try #1 at 1:26:50 PM
+41 http fetch GET https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+42 http fetch 200 https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+43 silly fetchAndShaCheck shasum 29ac6549f15a65b19f3444a4178d537a8c161a8b
+44 verbose addTmpTarball /var/folders/98/c8gvfcvs7ws9689810_387kh0000gn/T/npm-18259-59ef8bd0/registry.npmjs.org/socket/-/socket-0.0.1.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for socket@0.0.1
+46 silly cache afterAdd socket@0.0.1
+47 verbose afterAdd /Users/rohran01/.npm/socket/0.0.1/package/package.json not in flight; writing
+48 verbose afterAdd /Users/rohran01/.npm/socket/0.0.1/package/package.json written
+49 silly install resolved [ { name: 'socket',
+49 silly install resolved     description: 'Socket is a connect clone for simple socket based applications',
+49 silly install resolved     version: '0.0.1',
+49 silly install resolved     author:
+49 silly install resolved      { name: 'Richard S Allinson',
+49 silly install resolved        email: 'rsa@mounitainmansoftware.com' },
+49 silly install resolved     main: 'index',
+49 silly install resolved     engines: { node: '>= 0.6.0 < 0.7.0' },
+49 silly install resolved     dependencies: { microtime: '=0.2.0' },
+49 silly install resolved     repository: { type: 'git', url: 'git://github.com/capecodehq/socket.git' },
+49 silly install resolved     license: 'MIT',
+49 silly install resolved     _npmUser:
+49 silly install resolved      { name: 'mountainmansoftware',
+49 silly install resolved        email: 'npm@mountainmansoftware.com' },
+49 silly install resolved     _id: 'socket@0.0.1',
+49 silly install resolved     devDependencies: {},
+49 silly install resolved     optionalDependencies: {},
+49 silly install resolved     _engineSupported: true,
+49 silly install resolved     _npmVersion: '1.1.0-3',
+49 silly install resolved     _nodeVersion: 'v0.6.9',
+49 silly install resolved     _defaultsLoaded: true,
+49 silly install resolved     dist:
+49 silly install resolved      { shasum: '29ac6549f15a65b19f3444a4178d537a8c161a8b',
+49 silly install resolved        tarball: 'http://registry.npmjs.org/socket/-/socket-0.0.1.tgz' },
+49 silly install resolved     maintainers: [ [Object] ],
+49 silly install resolved     directories: {},
+49 silly install resolved     _shasum: '29ac6549f15a65b19f3444a4178d537a8c161a8b',
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz',
+49 silly install resolved     _from: 'socket@*' } ]
+50 info install socket@0.0.1 into /Users/rohran01/Desktop/PrimeProjects/PeerNode
+51 info installOne socket@0.0.1
+52 verbose installOne of socket to /Users/rohran01/Desktop/PrimeProjects/PeerNode not in flight; installing
+53 verbose lock using /Users/rohran01/.npm/_locks/socket-344bc95e32c4ce9f.lock for /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+54 warn engine socket@0.0.1: wanted: {"node":">= 0.6.0 < 0.7.0"} (current: {"node":"4.0.0","npm":"2.14.2"})
+55 silly install write writing socket 0.0.1 to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+56 verbose unbuild node_modules/socket
+57 silly gentlyRm /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket is being purged from base /Users/rohran01/Desktop/PrimeProjects/PeerNode
+58 verbose gentlyRm don't care about contents; nuking /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+59 verbose tar unpack /Users/rohran01/.npm/socket/0.0.1/package.tgz
+60 verbose tar unpacking to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+61 silly gentlyRm /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket is being purged
+62 verbose gentlyRm don't care about contents; nuking /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry examples/
+65 silly gunzTarPerm extractEntry examples/echo-server.js
+66 silly gunzTarPerm extractEntry examples/simple-test.js
+67 silly gunzTarPerm extractEntry examples/simple-time-server.js
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry lib/
+70 silly gunzTarPerm extractEntry lib/index.js
+71 silly gunzTarPerm extractEntry lib/middleware/
+72 silly gunzTarPerm extractEntry lib/middleware/echo.js
+73 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+74 silly gunzTarPerm extractEntry lib/middleware/json.js
+75 silly gunzTarPerm extractEntry lib/middleware/profiler.js
+76 silly gunzTarPerm extractEntry lib/proto.js
+77 silly gunzTarPerm extractEntry lib/utils.js
+78 silly gunzTarPerm extractEntry nbproject/
+79 silly gunzTarPerm extractEntry nbproject/private/
+80 silly gunzTarPerm extractEntry nbproject/private/private.properties
+81 silly gunzTarPerm extractEntry nbproject/project.properties
+82 silly gunzTarPerm extractEntry nbproject/project.xml
+83 silly gunzTarPerm extractEntry package.json
+84 silly gunzTarPerm extractEntry scripts/
+85 silly gunzTarPerm extractEntry scripts/lint
+86 verbose write writing to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/package.json
+87 info preinstall socket@0.0.1
+88 verbose readDependencies loading dependencies from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/package.json
+89 silly prepareForInstallMany adding microtime@=0.2.0 from socket dependencies
+90 verbose readDependencies loading dependencies from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/package.json
+91 silly cache add args [ 'microtime@=0.2.0', null ]
+92 verbose cache add spec microtime@=0.2.0
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'microtime@=0.2.0',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'microtime',
+93 silly cache add   rawSpec: '=0.2.0',
+93 silly cache add   spec: '0.2.0',
+93 silly cache add   type: 'version' }
+94 silly addNamed microtime@0.2.0
+95 verbose addNamed "0.2.0" is a plain semver version for microtime
+96 silly mapToRegistry name microtime
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/microtime
+100 verbose addNameVersion registry:https://registry.npmjs.org/microtime not in flight; fetching
+101 verbose request uri https://registry.npmjs.org/microtime
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 1:26:50 PM
+104 http request GET https://registry.npmjs.org/microtime
+105 http 200 https://registry.npmjs.org/microtime
+106 silly get cb [ 200,
+106 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+106 silly get     etag: '"643BDRJSWF8XK731HA0S1NGN2"',
+106 silly get     'content-type': 'application/json',
+106 silly get     'cache-control': 'max-age=300',
+106 silly get     'content-length': '25919',
+106 silly get     'accept-ranges': 'bytes',
+106 silly get     date: 'Tue, 05 Jan 2016 19:26:51 GMT',
+106 silly get     via: '1.1 varnish',
+106 silly get     age: '202',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-served-by': 'cache-dfw1825-DFW',
+106 silly get     'x-cache': 'HIT',
+106 silly get     'x-cache-hits': '1',
+106 silly get     'x-timer': 'S1452022011.669031,VS0,VE0',
+106 silly get     vary: 'Accept' } ]
+107 verbose get saving microtime to /Users/rohran01/.npm/registry.npmjs.org/microtime/.cache.json
+108 silly mapToRegistry name microtime
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/microtime
+112 verbose addRemoteTarball https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz not in flight; adding
+113 verbose addRemoteTarball [ 'https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz',
+113 verbose addRemoteTarball   '45ee5cb061f9948a3ade221e620d5117a8a2bdb4' ]
+114 info retry fetch attempt 1 at 1:26:50 PM
+115 info attempt registry request try #1 at 1:26:50 PM
+116 http fetch GET https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+117 http fetch 200 https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+118 silly fetchAndShaCheck shasum 45ee5cb061f9948a3ade221e620d5117a8a2bdb4
+119 verbose addTmpTarball /var/folders/98/c8gvfcvs7ws9689810_387kh0000gn/T/npm-18259-59ef8bd0/registry.npmjs.org/microtime/-/microtime-0.2.0.tgz not in flight; adding
+120 verbose addTmpTarball already have metadata; skipping unpack for microtime@0.2.0
+121 silly cache afterAdd microtime@0.2.0
+122 verbose afterAdd /Users/rohran01/.npm/microtime/0.2.0/package/package.json not in flight; writing
+123 verbose afterAdd /Users/rohran01/.npm/microtime/0.2.0/package/package.json written
+124 silly install resolved [ { name: 'microtime',
+124 silly install resolved     version: '0.2.0',
+124 silly install resolved     description: 'Get the current time in microseconds',
+124 silly install resolved     author:
+124 silly install resolved      { name: 'Wade Simmons',
+124 silly install resolved        email: 'wade@wades.im',
+124 silly install resolved        url: 'http://wades.im/mons' },
+124 silly install resolved     homepage: 'https://github.com/wadey/node-microtime',
+124 silly install resolved     repository:
+124 silly install resolved      { type: 'git',
+124 silly install resolved        url: 'git://github.com/wadey/node-microtime.git' },
+124 silly install resolved     main: './index',
+124 silly install resolved     engines: { node: '>= 0.2.0' },
+124 silly install resolved     scripts: { install: 'node-waf configure build', test: 'node test.js' },
+124 silly install resolved     _npmUser: { name: 'wadey', email: 'wade@wades.im' },
+124 silly install resolved     _id: 'microtime@0.2.0',
+124 silly install resolved     dependencies: {},
+124 silly install resolved     devDependencies: {},
+124 silly install resolved     _engineSupported: true,
+124 silly install resolved     _npmVersion: '1.0.103',
+124 silly install resolved     _nodeVersion: 'v0.4.11',
+124 silly install resolved     _defaultsLoaded: true,
+124 silly install resolved     dist:
+124 silly install resolved      { shasum: '45ee5cb061f9948a3ade221e620d5117a8a2bdb4',
+124 silly install resolved        tarball: 'http://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz' },
+124 silly install resolved     maintainers: [ [Object] ],
+124 silly install resolved     directories: {},
+124 silly install resolved     _shasum: '45ee5cb061f9948a3ade221e620d5117a8a2bdb4',
+124 silly install resolved     _resolved: 'https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz',
+124 silly install resolved     _from: 'microtime@0.2.0' } ]
+125 info install microtime@0.2.0 into /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+126 info installOne microtime@0.2.0
+127 verbose installOne of microtime to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket not in flight; installing
+128 verbose lock using /Users/rohran01/.npm/_locks/microtime-e064966aba6c7133.lock for /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+129 silly install write writing microtime 0.2.0 to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+130 verbose unbuild node_modules/socket/node_modules/microtime
+131 silly gentlyRm /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime is being purged from base /Users/rohran01/Desktop/PrimeProjects/PeerNode
+132 verbose gentlyRm don't care about contents; nuking /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+133 verbose tar unpack /Users/rohran01/.npm/microtime/0.2.0/package.tgz
+134 verbose tar unpacking to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+135 silly gentlyRm /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime is being purged
+136 verbose gentlyRm don't care about contents; nuking /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+137 silly gunzTarPerm modes [ '755', '644' ]
+138 silly gunzTarPerm extractEntry index.js
+139 silly gunzTarPerm extractEntry LICENSE
+140 silly gunzTarPerm extractEntry package.json
+141 silly gunzTarPerm extractEntry README.md
+142 silly gunzTarPerm extractEntry test.js
+143 silly gunzTarPerm extractEntry wscript
+144 silly gunzTarPerm extractEntry src/microtime.cc
+145 verbose write writing to /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime/package.json
+146 info preinstall microtime@0.2.0
+147 verbose readDependencies loading dependencies from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime/package.json
+148 verbose readDependencies loading dependencies from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime/package.json
+149 silly install resolved []
+150 verbose about to build /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+151 info build /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+152 info linkStuff microtime@0.2.0
+153 silly linkStuff microtime@0.2.0 has /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules as its parent node_modules
+154 verbose linkBins microtime@0.2.0
+155 verbose linkMans microtime@0.2.0
+156 verbose rebuildBundles microtime@0.2.0
+157 info install microtime@0.2.0
+158 verbose unsafe-perm in lifecycle true
+159 info microtime@0.2.0 Failed to exec install script
+160 verbose unlock done using /Users/rohran01/.npm/_locks/microtime-e064966aba6c7133.lock for /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+161 verbose about to build /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+162 verbose unlock done using /Users/rohran01/.npm/_locks/socket-344bc95e32c4ce9f.lock for /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+163 verbose stack Error: microtime@0.2.0 install: `node-waf configure build`
+163 verbose stack spawn ENOENT
+163 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+163 verbose stack     at emitTwo (events.js:87:13)
+163 verbose stack     at ChildProcess.emit (events.js:172:7)
+163 verbose stack     at maybeClose (internal/child_process.js:817:16)
+163 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+164 verbose pkgid microtime@0.2.0
+165 verbose cwd /Users/rohran01/Desktop/PrimeProjects/PeerNode
+166 error Darwin 15.2.0
+167 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "socket"
+168 error node v4.0.0
+169 error npm  v2.14.2
+170 error file sh
+171 error code ELIFECYCLE
+172 error errno ENOENT
+173 error syscall spawn
+174 error microtime@0.2.0 install: `node-waf configure build`
+174 error spawn ENOENT
+175 error Failed at the microtime@0.2.0 install script 'node-waf configure build'.
+175 error This is most likely a problem with the microtime package,
+175 error not with npm itself.
+175 error Tell the author that this fails on your system:
+175 error     node-waf configure build
+175 error You can get their info via:
+175 error     npm owner ls microtime
+175 error There is likely additional logging output above.
+176 verbose exit [ 1, true ]
+177 verbose unbuild node_modules/socket/node_modules/microtime
+178 info preuninstall microtime@0.2.0
+179 info uninstall microtime@0.2.0
+180 verbose unbuild rmStuff microtime@0.2.0 from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules
+181 verbose unbuild rmStuff in /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules
+182 info postuninstall microtime@0.2.0
+183 silly gentlyRm /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime is being purged from base /Users/rohran01/Desktop/PrimeProjects/PeerNode
+184 verbose gentlyRm don't care about contents; nuking /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+185 silly vacuum-fs purging /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules/microtime
+186 silly vacuum-fs removing /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket/node_modules
+187 silly vacuum-fs quitting because other entries in /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+188 verbose unbuild node_modules/socket
+189 info preuninstall socket@0.0.1
+190 info uninstall socket@0.0.1
+191 verbose unbuild rmStuff socket@0.0.1 from /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules
+192 info postuninstall socket@0.0.1
+193 silly gentlyRm /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket is being purged from base /Users/rohran01/Desktop/PrimeProjects/PeerNode
+194 verbose gentlyRm don't care about contents; nuking /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+195 silly vacuum-fs purging /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules/socket
+196 silly vacuum-fs quitting because other entries in /Users/rohran01/Desktop/PrimeProjects/PeerNode/node_modules
