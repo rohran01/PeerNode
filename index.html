@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head lang="en">
     <meta charset="UTF-8">
     <title>Salary Predictor</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="operation.js"></script>
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="js/operation.js"></script>
 </head>
 <body>
-    <h1>What will your salary be when you grow up?</h1>
-    <button class="generator">Click to find out!</button>
+    <div class="container" >
+        <h1>What will your salary be when you grow up?</h1>
+        <audio id="cashRegister" preload="auto">
+            <source src="Static/cashRegister.mp3" type="audio/mpeg">
+        </audio>
+        <button class="generator">Click to find out!</button>
+        <div class="salary-holder"></div>
+        <div class="money-gif"></div>
+    </div>
 </body>
 </html>

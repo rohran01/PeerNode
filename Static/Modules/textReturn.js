@@ -6,11 +6,11 @@ var random = require('./random');
 var toUSD = require('./toUSD');
 
 var textReturn = function() {
-    return 'Account balance: \n';
+    return 'Yearly Salary: \n';
 };
 
 var randomDollars = function() {
-    return toUSD.dollars(random(1000000, 100));
+    return toUSD.dollars(random(50000000, 300000));
 };
 
 exports.textReturn = textReturn;
